@@ -1,0 +1,21 @@
+# Test and build output (CI uploads these as artifacts instead)
+test-results/
+image-digest.txt
+.pytest_cache/
+.ruff_cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
