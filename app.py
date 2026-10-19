@@ -13,7 +13,7 @@ STARTED_AT = datetime.now(timezone.utc)
 @app.get("/")
 def index():
     return jsonify(
-        message="Hello from DevOps week 3!",
+        message="Hello from DevOps week 3",
         hostname=socket.gethostname(),
         user=os.getenv("USER", "unknown"),
     )
